@@ -12,7 +12,7 @@ export function createMoon() {
     
     // Load Moon texture
     textureLoader.load(
-        "/textures/2k_moon.jpg", // Absolute path from project root
+        "textures/2k_moon.jpg", // No leading slash
         (texture) => {
             // Success callback - apply texture
             material.map = texture;
