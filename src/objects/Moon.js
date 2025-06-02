@@ -12,7 +12,7 @@ export function createMoon() {
     
     // Load Moon texture
     textureLoader.load(
-        "./textures/2k_moon.jpg",
+        `${import.meta.env.BASE_URL}textures/2k_moon.jpg`,
         (texture) => {
             // Success callback - apply texture
             material.map = texture;
