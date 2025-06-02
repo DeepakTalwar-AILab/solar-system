@@ -27,4 +27,7 @@ Thumbs.db
 
 # Logs
 logs
-*.log 
+*.log
+
+# Note: Textures are stored in public/textures/ for direct serving by Vite
+# Avoid duplicating large assets in src/ directories 
