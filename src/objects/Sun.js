@@ -15,7 +15,7 @@ export function createSun() {
     
     // Load Sun texture
     textureLoader.load(
-        `${import.meta.env.BASE_URL}textures/2k_sun.jpg`,
+        "/textures/2k_sun.jpg", // Absolute path from project root
         (texture) => {
             // Success callback - apply texture
             material.map = texture;

@@ -10,7 +10,7 @@ export const planetData = [
         distance: 3,     // Scaled distance from Sun (orbital radius)
         orbitalSpeed: 0.02,  // Speed of orbit around Sun
         rotationSpeed: 0.01, // Speed of rotation on own axis
-        texture: `${import.meta.env.BASE_URL}textures/2k_mercury.jpg`
+        texture: "/textures/2k_mercury.jpg"
     },
     {
         name: "Venus",
@@ -19,7 +19,7 @@ export const planetData = [
         distance: 5,
         orbitalSpeed: 0.015,
         rotationSpeed: 0.008,
-        texture: `${import.meta.env.BASE_URL}textures/2k_venus_surface.jpg`
+        texture: "/textures/2k_venus_surface.jpg"
     },
     {
         name: "Earth",
@@ -28,7 +28,7 @@ export const planetData = [
         distance: 7.5,
         orbitalSpeed: 0.01,
         rotationSpeed: 0.02,
-        texture: `${import.meta.env.BASE_URL}textures/2k_earth_daymap.jpg`
+        texture: "/textures/2k_earth_daymap.jpg"
     },
     {
         name: "Mars",
@@ -37,7 +37,7 @@ export const planetData = [
         distance: 10.5,
         orbitalSpeed: 0.008,
         rotationSpeed: 0.018,
-        texture: `${import.meta.env.BASE_URL}textures/2k_mars.jpg`
+        texture: "/textures/2k_mars.jpg"
     },
     {
         name: "Jupiter",
@@ -46,7 +46,7 @@ export const planetData = [
         distance: 16,
         orbitalSpeed: 0.005,
         rotationSpeed: 0.04, // Jupiter rotates very fast
-        texture: `${import.meta.env.BASE_URL}textures/2k_jupiter.jpg`
+        texture: "/textures/2k_jupiter.jpg"
     },
     {
         name: "Saturn",
@@ -55,7 +55,7 @@ export const planetData = [
         distance: 22,
         orbitalSpeed: 0.003,
         rotationSpeed: 0.035,
-        texture: `${import.meta.env.BASE_URL}textures/2k_saturn.jpg`
+        texture: "/textures/2k_saturn.jpg"
     },
     {
         name: "Uranus",
@@ -64,7 +64,7 @@ export const planetData = [
         distance: 28,
         orbitalSpeed: 0.002,
         rotationSpeed: 0.025,
-        texture: `${import.meta.env.BASE_URL}textures/2k_uranus.jpg`
+        texture: "/textures/2k_uranus.jpg"
     },
     {
         name: "Neptune",
@@ -73,6 +73,6 @@ export const planetData = [
         distance: 34,
         orbitalSpeed: 0.001,
         rotationSpeed: 0.022,
-        texture: `${import.meta.env.BASE_URL}textures/2k_neptune.jpg`
+        texture: "/textures/2k_neptune.jpg"
     }
 ]; 
