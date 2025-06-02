@@ -15,7 +15,7 @@ export function createSun() {
     
     // Load Sun texture
     textureLoader.load(
-        "/textures/2k_sun.jpg",
+        "./textures/2k_sun.jpg",
         (texture) => {
             // Success callback - apply texture
             material.map = texture;
