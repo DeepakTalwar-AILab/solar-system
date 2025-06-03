@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 // Standard Vite configuration for deploying to a subdirectory on GitHub Pages.
 // The `base` path is crucial for correct asset URL resolution.
+// Triggering a new deployment with a minor change.
 export default defineConfig({
   base: '/solar-system/', // Must match the repository name if deploying to <username>.github.io/<repository-name>/
   build: {
